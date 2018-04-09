@@ -1,0 +1,143 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+body{
+background: #FFFFFF;
+}
+
+
+
+.hero {
+
+  min-height: 89vh;
+  background: url('hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.time-box {
+  position: absolute;
+  top: 112px;
+  left: 58px;
+  font-size: 24px;
+  background: #C4C4C4;
+}
+
+.hero-text{
+  position: absolute;
+  left: 85px;
+  top: 212px;
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.btn {
+  position: absolute;
+  left: 85px;
+  top: 463px;
+  height: 71px;
+  width: 221px;
+  background: #C4C4C4;
+}
+
+.btn span {
+position: absolute;
+width: 150px;
+height: 38px;
+left: 20px;
+top: 15px;
+font-size: 32px;
+color: #000;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.main-nav li{
+  list-style: none;
+  font-size: 24px;
+}
+
+.main-nav li:first-child {
+  margin-right: auto;
+}
+
+.main-nav a {
+  margin: 15px;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  display: block;
+}
+
+.main-nav li a:hover {
+  background: #C4C4C4;
+}
+
+.main-nav li a.active {
+  background: #C4C4C4;
+}
+
+footer{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
